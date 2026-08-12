@@ -1,0 +1,469 @@
+/* ================================
+   OFF+ — ESTILO DO APLICATIVO
+   ================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(circle at top right, #35106b 0%, transparent 35%),
+    linear-gradient(160deg, #080313 0%, #120526 45%, #050208 100%);
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ÁREA PRINCIPAL */
+
+.app {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 22px 18px 50px;
+}
+
+/* CABEÇALHO */
+
+.header {
+  text-align: center;
+  padding: 25px 10px 28px;
+}
+
+.logo {
+  font-size: 52px;
+  font-weight: 900;
+  letter-spacing: -3px;
+  color: #ffffff;
+  text-shadow: 0 0 25px rgba(132, 56, 255, .7);
+}
+
+.logo strong {
+  color: #a855f7;
+}
+
+.power {
+  color: #a855f7;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #c084fc;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+/* SEÇÕES */
+
+section {
+  margin-bottom: 24px;
+}
+
+/* CARTÃO PRINCIPAL */
+
+.card,
+.screen-card,
+.dashboard-card {
+  background: linear-gradient(145deg, #f1e7ff, #d8c4ff);
+  color: #160b2d;
+  border-radius: 25px;
+  padding: 25px;
+  margin-bottom: 18px;
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, .45),
+    0 0 0 2px rgba(168, 85, 247, .7);
+}
+
+/* TEMPO DE TELA */
+
+.screen-time,
+.screenTime {
+  background: linear-gradient(145deg, #f4ecff, #d7c3ff);
+  color: #170629;
+  border-radius: 26px;
+  padding: 25px;
+  margin-bottom: 18px;
+  box-shadow:
+    0 8px 30px rgba(0,0,0,.45),
+    0 0 20px rgba(124,58,237,.35);
+}
+
+.screen-time h2,
+.screenTime h2,
+.card h2 {
+  color: #5120b7;
+  margin-bottom: 15px;
+}
+
+/* NÚMERO GRANDE */
+
+.big-number {
+  font-size: 42px;
+  font-weight: 900;
+  margin: 10px 0;
+  color: #10051f;
+}
+
+/* CARTÕES DOS PILARES */
+
+.stats,
+.cards,
+.pillars,
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat,
+.stat-card,
+.pillar,
+.info-card {
+  border-radius: 22px;
+  padding: 20px 12px;
+  text-align: center;
+  color: #160b2d;
+  min-height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 7px 20px rgba(0,0,0,.35);
+}
+
+.stat:nth-child(1),
+.stat-card:nth-child(1),
+.pillar:nth-child(1) {
+  background: linear-gradient(145deg, #e9dcff, #cbb2ff);
+}
+
+.stat:nth-child(2),
+.stat-card:nth-child(2),
+.pillar:nth-child(2) {
+  background: linear-gradient(145deg, #c9ffd7, #9df0b6);
+}
+
+.stat:nth-child(3),
+.stat-card:nth-child(3),
+.pillar:nth-child(3) {
+  background: linear-gradient(145deg, #fff0b5, #ffe083);
+}
+
+.stat strong,
+.stat-card strong,
+.pillar strong {
+  font-size: 25px;
+  margin: 8px 0;
+}
+
+/* BOTÕES GRANDES */
+
+button,
+.btn,
+.button {
+  border: 0;
+  border-radius: 17px;
+  padding: 17px 22px;
+  font-size: 16px;
+  font-weight: 800;
+  transition: .2s;
+}
+
+button:hover,
+.btn:hover,
+.button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.12);
+}
+
+.btn-primary,
+.primary,
+.btn-purple {
+  width: 100%;
+  background: linear-gradient(135deg, #5715d8, #8b35ff);
+  color: white;
+  box-shadow: 0 8px 22px rgba(104, 32, 220, .45);
+}
+
+.btn-secondary,
+.secondary {
+  width: 100%;
+  background: linear-gradient(135deg, #7921f3, #a855f7);
+  color: white;
+  box-shadow: 0 8px 22px rgba(124, 58, 237, .4);
+}
+
+/* LINKS/BOTÕES DE DESAFIOS E CHECK-IN */
+
+.challenge-button,
+.checkin-button,
+#challengesBtn,
+#checkinBtn {
+  width: 100%;
+  min-height: 65px;
+  margin: 8px 0;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #5213d2, #7924f5);
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  box-shadow: 0 8px 25px rgba(100, 30, 230, .45);
+}
+
+/* TÍTULOS */
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  color: #8b5cf6;
+  margin-bottom: 8px;
+}
+
+/* LISTAS DE DESAFIOS */
+
+.challenge,
+.mission,
+.task {
+  background: rgba(255,255,255,.95);
+  color: #18072d;
+  border-radius: 18px;
+  padding: 18px;
+  margin: 12px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,.25);
+}
+
+.challenge button,
+.mission button,
+.task button {
+  margin-top: 12px;
+  background: #6520dc;
+  color: white;
+}
+
+/* CONQUISTAS */
+
+.achievement,
+.achievement-card {
+  background: linear-gradient(145deg, #24104b, #38136e);
+  color: white;
+  border: 1px solid rgba(192,132,252,.4);
+  border-radius: 20px;
+  padding: 18px;
+  margin: 12px 0;
+  box-shadow: 0 8px 22px rgba(0,0,0,.35);
+}
+
+.achievement strong,
+.achievement-card strong {
+  color: #d8b4fe;
+}
+
+/* CHECK-IN */
+
+.checkin-options,
+.mood-grid,
+.moods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.mood,
+.mood-button {
+  background: #f3e8ff;
+  color: #241038;
+  border-radius: 18px;
+  padding: 17px 8px;
+  text-align: center;
+  border: 2px solid transparent;
+  font-size: 28px;
+}
+
+.mood:hover,
+.mood-button:hover {
+  border-color: #a855f7;
+  background: #e9d5ff;
+}
+
+/* CALENDÁRIO */
+
+.calendar {
+  background: #f4ecff;
+  color: #1a0b2d;
+  border-radius: 22px;
+  padding: 18px;
+  margin-top: 18px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  margin-top: 15px;
+}
+
+.calendar-day {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: #e4d2ff;
+  font-size: 13px;
+}
+
+.calendar-day:hover {
+  background: #c084fc;
+  color: white;
+}
+
+/* GRÁFICOS */
+
+.chart,
+.chart-container {
+  background: #f4ecff;
+  color: #18072d;
+  border-radius: 22px;
+  padding: 20px;
+  margin-top: 18px;
+}
+
+/* FORMULÁRIOS */
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0 14px;
+  border-radius: 14px;
+  border: 2px solid #c084fc;
+  background: #faf7ff;
+  color: #18072d;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124,58,237,.18);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* EXPERIÊNCIAS */
+
+.experience,
+.experience-card,
+.testimonial {
+  background: linear-gradient(145deg, #f5edff, #e1d0ff);
+  color: #18072d;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 14px 0;
+}
+
+/* LOGIN */
+
+.login {
+  max-width: 420px;
+  margin: 30px auto;
+  background: linear-gradient(145deg, #f3e8ff, #d8c4ff);
+  color: #18072d;
+  padding: 28px;
+  border-radius: 25px;
+  box-shadow: 0 10px 35px rgba(0,0,0,.5);
+}
+
+.login h2 {
+  color: #5518bd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* RODAPÉ */
+
+.footer {
+  text-align: center;
+  color: #c084fc;
+  padding: 30px 10px;
+  font-size: 14px;
+}
+
+/* RESPONSIVO PARA CELULAR */
+
+@media (max-width: 600px) {
+
+  .app {
+    padding: 15px 12px 40px;
+  }
+
+  .logo {
+    font-size: 43px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .stats,
+  .cards,
+  .pillars,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat,
+  .stat-card,
+  .pillar,
+  .info-card {
+    min-height: 110px;
+  }
+
+  .checkin-options,
+  .mood-grid,
+  .moods {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .big-number {
+    font-size: 36px;
+  }
+
+  .challenge-button,
+  .checkin-button,
+  #challengesBtn,
+  #checkinBtn {
+    font-size: 17px;
+  }
+}
