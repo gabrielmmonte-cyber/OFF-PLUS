@@ -6,7 +6,7 @@
 <title>OFF+ | Equilíbrio Digital</title>
 <style>
 :root{--bg:#090611;--panel:#171023;--panel2:#211538;--purple:#7b35ff;--purple2:#b25cff;--green:#54e0a1;--yellow:#ffd86b;--text:#fff;--muted:#b9aecb;--line:#ffffff16}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 0,#35155f,transparent 35%),radial-gradient(circle at 100% 20%,#241052,transparent 38%),var(--bg);color:var(--text);font-family:Arial,Segoe UI,sans-serif;padding-bottom:90px}.app{max-width:1100px;margin:auto;padding:16px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{display:flex;gap:10px;align-items:center}.logo{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),#4d20c9);font-weight:900;box-shadow:0 0 30px #7b35ff55}.brand b{font-size:25px}.brand small{display:block;color:var(--muted);margin-top:3px}.points{background:#ffffff0d;border:1px solid var(--line);padding:11px 15px;border-radius:16px;font-weight:bold}.points span{color:var(--yellow)}.top-actions{display:flex;align-items:center;gap:8px}.profile-shortcut{display:grid;place-items:center;width:46px;height:46px;padding:0;border:1px solid var(--line);border-radius:15px;background:linear-gradient(135deg,#2b1850,#171023);color:#fff;cursor:pointer;font-size:22px}.profile-shortcut:hover{transform:translateY(-2px);border-color:#a45aff}.screen{display:none;animation:in .25s ease}.screen.active{display:block}@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}h1,h2,h3,p{margin-top:0}.hero{padding:25px 5px}.eyebrow{color:#cf9dff;text-transform:uppercase;font-size:12px;font-weight:900;letter-spacing:1.5px}.hero h1{font-size:clamp(34px,6vw,60px);line-height:1;margin:8px 0 14px;max-width:800px}.hero p,.muted{color:var(--muted);line-height:1.55}.card{background:linear-gradient(145deg,#211537,#130d20);border:1px solid var(--line);border-radius:24px;padding:21px;box-shadow:0 18px 45px #00000040}.main{display:grid;grid-template-columns:1.5fr .7fr;gap:20px;align-items:center}.label{color:#d9c9eb;font-size:13px;font-weight:bold}.number{font-size:clamp(48px,8vw,75px);font-weight:900;letter-spacing:-4px;margin:7px 0}.ring{width:155px;height:155px;border-radius:50%;background:conic-gradient(var(--purple2) 0 78%,#352547 78%);display:grid;place-items:center;margin:auto;position:relative}.ring:after{content:"";position:absolute;inset:15px;background:#171023;border-radius:50%}.ring b{position:relative;z-index:1;font-size:28px}.progress{height:9px;background:#352943;border-radius:20px;overflow:hidden;margin-top:12px}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--purple),var(--purple2));border-radius:20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:13px}.stat{padding:18px;border-radius:21px;border:1px solid var(--line)}.stat:nth-child(1){background:#29204b}.stat:nth-child(2){background:#123c30}.stat:nth-child(3){background:#4a3915}.stat:nth-child(4){background:#33203f}.stat .emoji{font-size:27px}.stat strong{display:block;font-size:22px;margin:12px 0 4px}.stat span{color:#d0c5dc;font-size:13px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.btn{border:0;border-radius:17px;padding:16px 18px;color:#fff;font-weight:900;cursor:pointer;transition:.18s}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.primary{background:linear-gradient(135deg,#6125e4,#a936ff)}.green{background:linear-gradient(135deg,#139664,#45d89a)}.dark{background:#2a2039;border:1px solid var(--line)}.full{width:100%}.title{display:flex;justify-content:space-between;align-items:end;margin:10px 0 16px}.title h2{margin:0;font-size:29px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.challenge{position:relative}.challenge h3{margin:9px 0 6px}.challenge p{color:var(--muted);line-height:1.5}.tag{display:inline-block;color:#d7b8ff;background:#7b35ff22;padding:6px 9px;border-radius:20px;font-size:10px;font-weight:900}.challenge.done{opacity:.65}.challenge.done:after{content:"✓ CONCLUÍDO";position:absolute;right:18px;top:18px;color:var(--green);font-size:10px;font-weight:900}.moods{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mood{background:#120d1d;color:#fff;border:1px solid var(--line);border-radius:19px;padding:18px 8px;cursor:pointer}.mood:hover,.mood.selected{background:linear-gradient(145deg,#4a20a0,#211434);border-color:#a45aff}.face{font-size:34px;display:block;margin-bottom:7px}.advice{display:none;margin-top:14px;background:linear-gradient(145deg,#2b1950,#151021);border:1px solid #9a57ed77;border-radius:21px;padding:20px}.advice.show{display:block}.tip{color:var(--green);font-weight:bold}.report{display:grid;grid-template-columns:1fr 1fr;gap:12px}.metric{background:#130e1e;border:1px solid var(--line);border-radius:19px;padding:17px}.row{display:flex;justify-content:space-between}.chart{height:180px;display:flex;align-items:end;gap:10px;padding-top:20px}.bar{flex:1;background:linear-gradient(#a55cff,#6425dc);border-radius:9px 9px 2px 2px;min-height:20px}.days{display:flex;justify-content:space-around;color:var(--muted);font-size:11px;margin-top:8px}.profile{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}.avatar{width:82px;height:82px;border-radius:28px;background:linear-gradient(135deg,#a45cff,#4e21ce);display:grid;place-items:center;font-size:38px}.achievements{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.badge{background:#130e1e;border:1px solid var(--line);border-radius:19px;padding:17px;text-align:center}.badge .icon{font-size:35px}.locked{opacity:.38;filter:grayscale(1)}.setting{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line)}.sleep{min-height:500px;text-align:center;display:grid;place-items:center;background:radial-gradient(circle at 50% 0,#352061,#0b0712 65%)}.moon{font-size:80px}.sleep h2{font-size:38px}.sleep p{color:var(--muted);max-width:520px;line-height:1.6}.nav{position:fixed;bottom:0;left:0;right:0;background:#0b0713eF;backdrop-filter:blur(18px);border-top:1px solid var(--line);z-index:20}.navin{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(8,1fr)}.nav button{background:none;border:0;color:#8f849f;padding:9px 2px;cursor:pointer;font-size:11px;font-weight:bold}.nav button span{display:block;font-size:21px;margin-bottom:3px}.nav button.active{color:#fff}.toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:#211432;border:1px solid #8a4dc0;border-radius:16px;padding:13px 18px;opacity:0;transition:.25s;z-index:30;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:700px){.app{padding:12px}.top-actions{gap:6px}.points{padding:9px 11px}.profile-shortcut{width:42px;height:42px;font-size:20px}.main{grid-template-columns:1fr}.ring{width:125px;height:125px}.stats{grid-template-columns:1fr 1fr}.grid,.report{grid-template-columns:1fr}.moods{grid-template-columns:repeat(2,1fr)}.achievements{grid-template-columns:1fr 1fr}.actions{grid-template-columns:1fr}.card{padding:18px}}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 10% 0,#35155f,transparent 35%),radial-gradient(circle at 100% 20%,#241052,transparent 38%),var(--bg);color:var(--text);font-family:Arial,Segoe UI,sans-serif;padding-bottom:90px}.app{max-width:1100px;margin:auto;padding:16px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{display:flex;gap:10px;align-items:center}.logo{width:50px;height:50px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),#4d20c9);font-weight:900;box-shadow:0 0 30px #7b35ff55}.brand b{font-size:25px}.brand small{display:block;color:var(--muted);margin-top:3px}.points{background:#ffffff0d;border:1px solid var(--line);padding:11px 15px;border-radius:16px;font-weight:bold}.points span{color:var(--yellow)}.top-actions{display:flex;align-items:center;gap:8px}.profile-shortcut{display:grid;place-items:center;width:46px;height:46px;padding:0;border:1px solid var(--line);border-radius:15px;background:linear-gradient(135deg,#2b1850,#171023);color:#fff;cursor:pointer;font-size:22px}.profile-shortcut:hover{transform:translateY(-2px);border-color:#a45aff}.screen{display:none;animation:in .25s ease}.screen.active{display:block}@keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}h1,h2,h3,p{margin-top:0}.hero{padding:25px 5px}.eyebrow{color:#cf9dff;text-transform:uppercase;font-size:12px;font-weight:900;letter-spacing:1.5px}.hero h1{font-size:clamp(34px,6vw,60px);line-height:1;margin:8px 0 14px;max-width:800px}.hero p,.muted{color:var(--muted);line-height:1.55}.card{background:linear-gradient(145deg,#211537,#130d20);border:1px solid var(--line);border-radius:24px;padding:21px;box-shadow:0 18px 45px #00000040}.main{display:grid;grid-template-columns:1.5fr .7fr;gap:20px;align-items:center}.label{color:#d9c9eb;font-size:13px;font-weight:bold}.number{font-size:clamp(48px,8vw,75px);font-weight:900;letter-spacing:-4px;margin:7px 0}.ring{width:155px;height:155px;border-radius:50%;background:conic-gradient(var(--purple2) 0 78%,#352547 78%);display:grid;place-items:center;margin:auto;position:relative}.ring:after{content:"";position:absolute;inset:15px;background:#171023;border-radius:50%}.ring b{position:relative;z-index:1;font-size:28px}.progress{height:9px;background:#352943;border-radius:20px;overflow:hidden;margin-top:12px}.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--purple),var(--purple2));border-radius:20px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:13px}.stat{padding:18px;border-radius:21px;border:1px solid var(--line)}.stat:nth-child(1){background:#29204b}.stat:nth-child(2){background:#123c30}.stat:nth-child(3){background:#4a3915}.stat:nth-child(4){background:#33203f}.stat .emoji{font-size:27px}.stat strong{display:block;font-size:22px;margin:12px 0 4px}.stat span{color:#d0c5dc;font-size:13px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.btn{border:0;border-radius:17px;padding:16px 18px;color:#fff;font-weight:900;cursor:pointer;transition:.18s}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.primary{background:linear-gradient(135deg,#6125e4,#a936ff)}.green{background:linear-gradient(135deg,#139664,#45d89a)}.dark{background:#2a2039;border:1px solid var(--line)}.full{width:100%}.title{display:flex;justify-content:space-between;align-items:end;margin:10px 0 16px}.title h2{margin:0;font-size:29px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.challenge{position:relative}.challenge h3{margin:9px 0 6px}.challenge p{color:var(--muted);line-height:1.5}.tag{display:inline-block;color:#d7b8ff;background:#7b35ff22;padding:6px 9px;border-radius:20px;font-size:10px;font-weight:900}.challenge.done{opacity:.65}.challenge.done:after{content:"✓ CONCLUÍDO";position:absolute;right:18px;top:18px;color:var(--green);font-size:10px;font-weight:900}.moods{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mood{background:#120d1d;color:#fff;border:1px solid var(--line);border-radius:19px;padding:18px 8px;cursor:pointer}.mood:hover,.mood.selected{background:linear-gradient(145deg,#4a20a0,#211434);border-color:#a45aff}.face{font-size:34px;display:block;margin-bottom:7px}.advice{display:none;margin-top:14px;background:linear-gradient(145deg,#2b1950,#151021);border:1px solid #9a57ed77;border-radius:21px;padding:20px}.advice.show{display:block}.tip{color:var(--green);font-weight:bold}.report{display:grid;grid-template-columns:1fr 1fr;gap:12px}.metric{background:#130e1e;border:1px solid var(--line);border-radius:19px;padding:17px}.row{display:flex;justify-content:space-between}.chart{height:180px;display:flex;align-items:end;gap:10px;padding-top:20px}.bar{flex:1;background:linear-gradient(#a55cff,#6425dc);border-radius:9px 9px 2px 2px;min-height:20px}.days{display:flex;justify-content:space-around;color:var(--muted);font-size:11px;margin-top:8px}.profile{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}.avatar{width:82px;height:82px;border-radius:28px;background:linear-gradient(135deg,#a45cff,#4e21ce);display:grid;place-items:center;font-size:38px}.achievements{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.badge{background:#130e1e;border:1px solid var(--line);border-radius:19px;padding:17px;text-align:center}.badge .icon{font-size:35px}.locked{opacity:.38;filter:grayscale(1)}.setting{display:flex;justify-content:space-between;align-items:center;padding:15px 0;border-bottom:1px solid var(--line)}.sleep{min-height:500px;text-align:center;display:grid;place-items:center;background:radial-gradient(circle at 50% 0,#352061,#0b0712 65%)}.moon{font-size:80px}.sleep h2{font-size:38px}.sleep p{color:var(--muted);max-width:520px;line-height:1.6}.nav{position:fixed;bottom:0;left:0;right:0;background:#0b0713eF;backdrop-filter:blur(18px);border-top:1px solid var(--line);z-index:20}.navin{max-width:1100px;margin:auto;display:grid;grid-template-columns:repeat(8,1fr)}.nav button{background:none;border:0;color:#8f849f;padding:9px 2px;cursor:pointer;font-size:11px;font-weight:bold}.nav button span{display:block;font-size:21px;margin-bottom:3px}.nav button.active{color:#fff}.sleep-modal{position:fixed;inset:0;background:#08040dcc;backdrop-filter:blur(7px);display:none;align-items:center;justify-content:center;padding:20px;z-index:40}.sleep-modal.show{display:flex}.sleep-modal-card{width:min(480px,100%);background:linear-gradient(145deg,#281746,#120b1d);border:1px solid #9a57ed77;border-radius:26px;padding:28px;text-align:center;box-shadow:0 25px 70px #0009}.sleep-modal-icon{font-size:54px;margin-bottom:8px}.sleep-modal-card h2{font-size:32px;margin:8px 0}.sleep-modal-card p{color:var(--muted);line-height:1.55}.sleep-tip{display:flex;flex-direction:column;gap:8px;text-align:left;margin:20px 0;padding:16px;border:1px solid #8d50d355;border-radius:18px;background:#7b35ff12}.sleep-tip b{color:#cf9dff}.sleep-tip span{color:#d0c5dc;line-height:1.5;font-size:14px}.toast{position:fixed;left:50%;bottom:90px;transform:translate(-50%,20px);background:#211432;border:1px solid #8a4dc0;border-radius:16px;padding:13px 18px;opacity:0;transition:.25s;z-index:30;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}.day-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:15px 0}.day-grid label{font-size:12px;font-weight:800;color:#d9c9eb}.time-input{width:100%;margin-top:7px;border:1px solid var(--line);background:#0d0915;color:#fff;border-radius:14px;padding:13px;outline:none;font:inherit}.time-input:focus{border-color:#9b5cff}.log-status{min-height:18px;color:var(--green);font-size:12px;font-weight:bold;margin:10px 0 0}.metric-highlight{color:#cf9dff}.chart .bar{display:block}.empty-chart{width:100%;text-align:center;color:var(--muted);padding:50px 0}.report .metric{min-height:72px}@media(max-width:700px){.app{padding:12px}.top-actions{gap:6px}.points{padding:9px 11px}.profile-shortcut{width:42px;height:42px;font-size:20px}.main{grid-template-columns:1fr}.ring{width:125px;height:125px}.stats{grid-template-columns:1fr 1fr}.grid,.report{grid-template-columns:1fr}.day-grid{grid-template-columns:1fr}.moods{grid-template-columns:repeat(2,1fr)}.achievements{grid-template-columns:1fr 1fr}.actions{grid-template-columns:1fr}.card{padding:18px}}
 
 .calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
 .cal-head{color:#8f849f;font-size:10px;font-weight:900;text-align:center;padding:6px 0}
@@ -48,8 +48,16 @@
 .achievement-grid{grid-template-columns:repeat(2,1fr)}.badge{min-height:135px}.badge small{display:block;color:var(--muted);margin-top:8px}
 @media(max-width:700px){.calendar-tools{display:block}.calendar-mood-picker{margin-top:10px}.achievement-grid{grid-template-columns:1fr}.story-actions{display:block}.story-actions .btn{width:100%;margin-bottom:8px}.navin{overflow-x:auto}.nav button{min-width:70px}}
 
+
+.goal-edit{border:0;background:transparent;color:var(--green);font:inherit;font-weight:800;cursor:pointer;padding:2px 4px;border-radius:6px;text-decoration:underline;text-decoration-style:dotted}.goal-edit:hover{background:rgba(255,255,255,.08)}.goal-hint{font-size:12px;opacity:.7}
 </style>
-</head>
+<style id="off-challenge-timer-css">
+.challenge-time{display:inline-block;margin:8px 0 0;padding:5px 9px;border-radius:999px;background:#7b35ff18;color:#cdb0ff;font-size:11px;font-weight:800}
+.challenge-timer{display:none;margin:10px 0;padding:12px;border:1px solid var(--line);border-radius:16px;background:#0e0917;text-align:center}
+.challenge-timer.active{display:block}.challenge-clock{font-size:32px;font-weight:1000;letter-spacing:2px}
+.challenge-track{height:7px;background:#30253a;border-radius:99px;overflow:hidden;margin:8px 0}.challenge-track i{display:block;height:100%;width:0;background:var(--purple2);border-radius:99px}
+.challenge-timer small{color:var(--muted);font-size:10px}.challenge-controls{display:flex;gap:8px;margin-top:10px}.challenge-controls .btn{flex:1}.pause-btn{background:#2a2133;color:#f0e8f7;border:1px solid var(--line)}
+</style></head>
 <body>
 
 <div id="loginScreen" class="login-screen">
@@ -74,8 +82,8 @@
 
 <section id="home" class="screen active">
 <div class="hero"><div class="eyebrow">Seu equilíbrio digital</div><h1>Use a tecnologia sem deixar que ela controle você.</h1><p>Pequenas escolhas todos os dias para equilibrar tela, descanso, movimento, estudos e conexões reais.</p></div>
-<div class="card"><div class="main"><div><div class="label">⏱️ TEMPO DE TELA</div><div class="number">3h 25min</div><div class="muted">Meta diária: <b style="color:var(--green)">3h 30min</b></div><div class="progress"><i style="width:78%"></i></div></div><div class="ring"><b>78%</b></div></div></div>
-<div class="stats"><div class="stat"><div class="emoji">🌙</div><strong>7h20</strong><span>Sono</span></div><div class="stat"><div class="emoji">🏃</div><strong>30 min</strong><span>Atividade</span></div><div class="stat"><div class="emoji">📚</div><strong>1h40</strong><span>Estudos</span></div><div class="stat"><div class="emoji">🤝</div><strong>1h15</strong><span>Vida real</span></div></div>
+<div class="card"><div class="main"><div><div class="label">⏱️ TEMPO DE TELA</div><div id="homeScreenTime" class="number">0 min</div><div class="muted">Meta diária: <button id="homeGoal" class="goal-edit" type="button" onclick="editDailyGoal()">3h30</button> <span class="goal-hint">✏️ editar</span></div><div class="progress"><i id="homeProgress" style="width:0%"></i></div></div><div class="ring"><b id="homePercent">0%</b></div></div></div>
+<div class="stats"><div class="stat"><div class="emoji">🌙</div><strong id="homeSleep">0 min</strong><span>Sono</span></div><div class="stat"><div class="emoji">🏃</div><strong id="homeExercise">0 min</strong><span>Atividade</span></div><div class="stat"><div class="emoji">📚</div><strong id="homeStudy">0 min</strong><span>Estudos</span></div><div class="stat"><div class="emoji">🤝</div><strong id="homeRealLife">0 min</strong><span>Vida real</span></div></div>
 <div class="actions"><button class="btn primary" onclick="go('challenges')">🎯 VER DESAFIOS</button><button class="btn primary" onclick="go('checkin')">🧠 FAZER CHECK-IN</button></div>
 <div class="card recommendation" style="margin-top:13px">
   <div><span class="eyebrow">💡 DICA DE HOJE</span><h3 id="dailyTipTitle">Pequenas pausas fazem diferença.</h3><p class="muted" id="dailyTipText">Que tal ficar 30 minutos longe das redes sociais hoje?</p></div>
@@ -84,23 +92,103 @@
 </section>
 
 <section id="challenges" class="screen"><div class="title"><div><h2>🎯 Desafios</h2><p class="muted">Complete missões e ganhe pontos.</p></div></div><div class="grid">
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🏃 Mexa-se</h3><p>Faça 30 minutos de atividade física.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>🌙 Boa noite</h3><p>Fique 1 hora longe das telas antes de dormir.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🤝 Conexão real</h3><p>Converse pessoalmente com alguém por 20 minutos.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>📚 Mestre do foco</h3><p>Estude por 25 minutos sem redes sociais.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="15"><span class="tag">+15 PONTOS</span><h3>📵 Pausa digital</h3><p>Fique 30 minutos sem abrir redes sociais.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🌿 Respire</h3><p>Faça 5 minutos de respiração e atenção plena.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🏃 Mexa-se</h3><p>Faça 30 minutos de atividade física.</p><div class="challenge-time">⏱️ Tempo: 30 min</div>
+<div class="challenge-timer" data-duration="1800">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>🌙 Boa noite</h3><p>Fique 1 hora longe das telas antes de dormir.</p><div class="challenge-time">⏱️ Tempo: 1 hora</div>
+<div class="challenge-timer" data-duration="3600">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🤝 Conexão real</h3><p>Converse pessoalmente com alguém por 20 minutos.</p><div class="challenge-time">⏱️ Tempo: 20 min</div>
+<div class="challenge-timer" data-duration="1200">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>📚 Mestre do foco</h3><p>Estude por 25 minutos sem redes sociais.</p><div class="challenge-time">⏱️ Tempo: 25 min</div>
+<div class="challenge-timer" data-duration="1500">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="15"><span class="tag">+15 PONTOS</span><h3>📵 Pausa digital</h3><p>Fique 30 minutos sem abrir redes sociais.</p><div class="challenge-time">⏱️ Tempo: 30 min</div>
+<div class="challenge-timer" data-duration="1800">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🌿 Respire</h3><p>Faça 5 minutos de respiração e atenção plena.</p><div class="challenge-time">⏱️ Tempo: 5 min</div>
+<div class="challenge-timer" data-duration="300">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
 
-<div class="card challenge" data-p="15"><span class="tag">+15 PONTOS</span><h3>💧 Beba água</h3><p>Beba água e faça uma pausa consciente longe da tela.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🌳 Ar livre</h3><p>Passe pelo menos 20 minutos ao ar livre.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>📖 Leitura OFF</h3><p>Leia por 20 minutos sem usar o celular.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🧹 Ambiente leve</h3><p>Organize seu espaço por 15 minutos sem distrações.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>🚫 Sem notificações</h3><p>Desative notificações desnecessárias por uma hora.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🎨 Criatividade</h3><p>Faça algo criativo por 20 minutos: desenhe, escreva ou crie.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>🍽️ Refeição consciente</h3><p>Faça uma refeição sem celular e preste atenção ao momento.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>☎️ Ligue para alguém</h3><p>Faça uma ligação ou conversa real com alguém importante.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>📵 Primeira hora OFF</h3><p>Comece o dia sem redes sociais durante a primeira hora.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
-<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>🌅 Última hora OFF</h3><p>Fique uma hora antes de dormir sem redes sociais.</p><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="15"><span class="tag">+15 PONTOS</span><h3>💧 Beba água</h3><p>Beba água e faça uma pausa consciente longe da tela.</p><div class="challenge-time">⏱️ Tempo: 5 min</div>
+<div class="challenge-timer" data-duration="300">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🌳 Ar livre</h3><p>Passe pelo menos 20 minutos ao ar livre.</p><div class="challenge-time">⏱️ Tempo: 20 min</div>
+<div class="challenge-timer" data-duration="1200">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>📖 Leitura OFF</h3><p>Leia por 20 minutos sem usar o celular.</p><div class="challenge-time">⏱️ Tempo: 20 min</div>
+<div class="challenge-timer" data-duration="1200">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🧹 Ambiente leve</h3><p>Organize seu espaço por 15 minutos sem distrações.</p><div class="challenge-time">⏱️ Tempo: 15 min</div>
+<div class="challenge-timer" data-duration="900">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>🚫 Sem notificações</h3><p>Desative notificações desnecessárias por uma hora.</p><div class="challenge-time">⏱️ Tempo: 1 hora</div>
+<div class="challenge-timer" data-duration="3600">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>🎨 Criatividade</h3><p>Faça algo criativo por 20 minutos: desenhe, escreva ou crie.</p><div class="challenge-time">⏱️ Tempo: 20 min</div>
+<div class="challenge-timer" data-duration="1200">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="25"><span class="tag">+25 PONTOS</span><h3>🍽️ Refeição consciente</h3><p>Faça uma refeição sem celular e preste atenção ao momento.</p><div class="challenge-time">⏱️ Tempo: 20 min</div>
+<div class="challenge-timer" data-duration="1200">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="20"><span class="tag">+20 PONTOS</span><h3>☎️ Ligue para alguém</h3><p>Faça uma ligação ou conversa real com alguém importante.</p><div class="challenge-time">⏱️ Tempo: 1 hora</div>
+<div class="challenge-timer" data-duration="3600">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>📵 Primeira hora OFF</h3><p>Comece o dia sem redes sociais durante a primeira hora.</p><div class="challenge-time">⏱️ Tempo: 1 hora</div>
+<div class="challenge-timer" data-duration="3600">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
+<div class="card challenge" data-p="30"><span class="tag">+30 PONTOS</span><h3>🌅 Última hora OFF</h3><p>Fique uma hora antes de dormir sem redes sociais.</p><div class="challenge-time">⏱️ Tempo: 1 hora</div>
+<div class="challenge-timer" data-duration="3600">
+  <div class="challenge-clock">00:00</div>
+  <div class="challenge-track"><i></i></div>
+  <small>O botão de conclusão será liberado quando chegar a 00:00.</small>
+</div><button class="btn primary full" onclick="challenge(this)">Começar</button></div>
 </div></section>
 
 <section id="checkin" class="screen">
@@ -163,10 +251,10 @@
   <div class="score-ring"><b id="scorePercent">82%</b></div>
 </div>
 <div class="balance-grid">
-  <div class="card balance-item"><span>📱</span><div><b>Tela</b><small>3h25 — 🟢 Bom</small></div><strong>82%</strong></div>
-  <div class="card balance-item"><span>🌙</span><div><b>Sono</b><small>7h20 — 🟢 Bom</small></div><strong>86%</strong></div>
-  <div class="card balance-item"><span>🏃</span><div><b>Atividade</b><small>30 min — 🟡 Pode melhorar</small></div><strong>60%</strong></div>
-  <div class="card balance-item"><span>🧠</span><div><b>Humor</b><small id="balanceMood">🙂 Acompanhando</small></div><strong id="moodScore">80%</strong></div>
+  <div class="card balance-item"><span>📱</span><div><b>Tela</b><small id="balanceScreenDetail">0 min — ⚪ Sem registro</small></div><strong id="balanceScreenScore">0%</strong></div>
+  <div class="card balance-item"><span>🌙</span><div><b>Sono</b><small id="balanceSleepDetail">0 min — ⚪ Sem registro</small></div><strong id="balanceSleepScore">0%</strong></div>
+  <div class="card balance-item"><span>🏃</span><div><b>Atividade</b><small id="balanceExerciseDetail">0 min — ⚪ Sem registro</small></div><strong id="balanceExerciseScore">0%</strong></div>
+  <div class="card balance-item"><span>🧠</span><div><b>Humor</b><small id="balanceMood">⚪ Sem check-in hoje</small></div><strong id="moodScore">0%</strong></div>
 </div>
 <div class="card" style="margin-top:13px"><h3>📌 Seu próximo passo</h3><p class="muted">Hoje, tente fazer uma pausa de 30 minutos sem redes sociais.</p><button class="btn primary full" onclick="go('challenges')">🎯 Ver missão</button></div>
 </section>
@@ -183,7 +271,19 @@
 </div>
 <div class="card" style="margin-top:13px"><h3>🔥 Sua sequência</h3><div class="streak"><b id="streakNumber">5</b><span>dias seguidos</span></div><p class="muted">Faça seu check-in todos os dias para manter sua sequência.</p></div>
 </section>
-<section id="reports" class="screen"><div class="title"><div><h2>📊 Relatórios</h2><p class="muted">Sua evolução nesta semana.</p></div></div><div class="card"><h3>Tempo de tela</h3><div class="chart"><i class="bar" style="height:65%"></i><i class="bar" style="height:78%"></i><i class="bar" style="height:52%"></i><i class="bar" style="height:70%"></i><i class="bar" style="height:48%"></i><i class="bar" style="height:60%"></i><i class="bar" style="height:43%"></i></div><div class="days"><span>SEG</span><span>TER</span><span>QUA</span><span>QUI</span><span>SEX</span><span>SÁB</span><span>DOM</span></div></div><div class="report" style="margin-top:13px"><div class="metric"><div class="row"><span>🌙 Sono</span><b>7h20</b></div><div class="progress"><i style="width:86%"></i></div></div><div class="metric"><div class="row"><span>🏃 Atividade</span><b>30 min</b></div><div class="progress"><i style="width:60%"></i></div></div><div class="metric"><div class="row"><span>📚 Estudos</span><b>1h40</b></div><div class="progress"><i style="width:72%"></i></div></div><div class="metric"><div class="row"><span>🤝 Vida real</span><b>1h15</b></div><div class="progress"><i style="width:68%"></i></div></div></div><div class="card" style="margin-top:13px"><h3>💜 Você está evoluindo!</h3><p class="muted">Pequenas mudanças criam grandes resultados. Continue com constância.</p></div></section>
+<section id="reports" class="screen"><div class="title"><div><h2>📊 Relatórios</h2><p class="muted">Sua evolução sem poluir a tela inicial.</p></div></div>
+<div class="card day-log"><h3>📝 Meu dia</h3><p class="muted">Registre seus tempos. O OFF+ usa esses dados para atualizar automaticamente a tela inicial.</p><div class="day-grid">
+<label>📱 Redes sociais<input id="socialTime" class="time-input" inputmode="numeric" placeholder="Ex.: 2h30"></label>
+<label>🌙 Sono<input id="sleepTime" class="time-input" inputmode="numeric" placeholder="Ex.: 7h20"></label>
+<label>🏃 Atividade física<input id="exerciseTime" class="time-input" inputmode="numeric" placeholder="Ex.: 45min"></label>
+<label>📚 Estudos<input id="studyTime" class="time-input" inputmode="numeric" placeholder="Ex.: 1h40"></label>
+<label>🤝 Vida real / Socialização<input id="socializeTime" class="time-input" inputmode="numeric" placeholder="Ex.: 1h20"></label>
+<label>📴 Tempo offline<input id="offlineTime" class="time-input" inputmode="numeric" placeholder="Ex.: 5h"></label>
+</div><button class="btn primary full" onclick="saveDayLog()">Salvar meu dia 💜</button><p id="logStatus" class="log-status"></p></div>
+<div class="card" style="margin-top:13px"><div class="title"><div><h3>🎯 Meta diária de tempo de tela</h3><p class="muted">Escolha sua própria meta. Ela aparece na tela inicial e o progresso é calculado automaticamente.</p></div></div><div style="display:flex;gap:10px;align-items:center"><input id="dailyGoal" class="time-input" inputmode="numeric" placeholder="Ex.: 3h30" style="margin-top:0"><button class="btn primary" onclick="saveDailyGoal()">Salvar meta</button></div><p id="goalStatus" class="log-status"></p></div>
+<div class="card" style="margin-top:13px"><div class="title"><div><h3>📱 Tempo nas redes</h3><p class="muted">Comparação dos últimos 7 registros.</p></div><b id="screenAvg" class="metric-highlight">0 min/dia</b></div><div id="screenChart" class="chart"></div><div id="screenDays" class="days"></div></div>
+<div class="report" style="margin-top:13px"><div class="metric"><div class="row"><span>📱 Redes sociais</span><b id="socialTotal">0 min</b></div><div class="progress"><i id="socialBar" style="width:0%"></i></div></div><div class="metric"><div class="row"><span>📴 Tempo offline</span><b id="offlineTotal">0 min</b></div><div class="progress"><i id="offlineBar" style="width:0%"></i></div></div><div class="metric"><div class="row"><span>🏃 Atividade</span><b id="exerciseTotal">0 min</b></div><div class="progress"><i id="exerciseBar" style="width:0%"></i></div></div><div class="metric"><div class="row"><span>🤝 Socialização</span><b id="socializeTotal">0 min</b></div><div class="progress"><i id="socializeBar" style="width:0%"></i></div></div></div>
+<div class="card" style="margin-top:13px"><h3>💜 Seu equilíbrio</h3><p id="balanceMessage" class="muted">Registre seu dia para começar a acompanhar seu progresso.</p></div></section>
 
 
 <section id="stories" class="screen">
@@ -213,21 +313,221 @@
 <div class="badge locked" data-ach="10"><div class="icon">🌱</div><b>Transformação</b><small>Complete 10 desafios</small></div>
 </div>
 </section>
-<section id="profile" class="screen"><div class="title"><div><h2>👤 Perfil</h2><p class="muted">Seu progresso no OFF+.</p></div></div><div class="card profile"><div class="avatar">🌱</div><div><h2 style="margin:0">Explorador OFF+</h2><p class="muted">Nível <b id="level">1</b> · <span id="profilePoints">0</span> pontos</p><div class="progress"><i id="levelbar" style="width:0%"></i></div><small class="muted">Próximo nível: <span id="next">100</span> pontos</small></div></div><div class="card" style="margin-top:13px"><h3>🔥 Sequência de equilíbrio</h3><div style="font-size:42px;font-weight:900">5 dias</div><p class="muted">Você está mantendo seus hábitos. Continue!</p></div><div class="card" style="margin-top:13px"><h3>🏅 Conquistas</h3><div class="achievements"><div class="badge" id="b1"><div class="icon">🎯</div><b>Primeiro desafio</b></div><div class="badge locked" id="b2"><div class="icon">⭐</div><b>50 pontos</b></div><div class="badge locked" id="b3"><div class="icon">🧠</div><b>Check-in</b></div><div class="badge locked" id="b4"><div class="icon">🏆</div><b>100 pontos</b></div><div class="badge locked" id="b5"><div class="icon">🔥</div><b>7 dias</b></div><div class="badge locked" id="b6"><div class="icon">💜</div><b>Equilíbrio</b></div></div></div><div class="card" style="margin-top:13px"><div class="setting"><span>🔔 Lembretes</span><button class="btn dark" onclick="toast('Lembretes ativados 🔔')">Ativar</button></div><div class="setting"><span>🌙 Modo Sono</span><button class="btn dark" onclick="go('sleep')">Abrir</button></div><div class="setting"><span>⚙️ Privacidade</span><button class="btn dark" onclick="toast('Seus dados ficam neste protótipo 💜')">Ver</button></div><div class="setting"><span>🚪 Sair</span><button class="btn dark" onclick="logout()">Sair</button></div></div></section>
+<section id="profile" class="screen"><div class="title"><div><h2>👤 Perfil</h2><p class="muted">Seu progresso no OFF+.</p></div></div><div class="card profile"><div class="avatar">🌱</div><div><h2 style="margin:0">Explorador OFF+</h2><p class="muted">Nível <b id="level">1</b> · <span id="profilePoints">0</span> pontos</p><div class="progress"><i id="levelbar" style="width:0%"></i></div><small class="muted">Próximo nível: <span id="next">100</span> pontos</small></div></div><div class="card" style="margin-top:13px"><h3>🔥 Sequência de equilíbrio</h3><div style="font-size:42px;font-weight:900">5 dias</div><p class="muted">Você está mantendo seus hábitos. Continue!</p></div><div class="card" style="margin-top:13px"><h3>🏅 Conquistas</h3><div class="achievements"><div class="badge" id="b1"><div class="icon">🎯</div><b>Primeiro desafio</b></div><div class="badge locked" id="b2"><div class="icon">⭐</div><b>50 pontos</b></div><div class="badge locked" id="b3"><div class="icon">🧠</div><b>Check-in</b></div><div class="badge locked" id="b4"><div class="icon">🏆</div><b>100 pontos</b></div><div class="badge locked" id="b5"><div class="icon">🔥</div><b>7 dias</b></div><div class="badge locked" id="b6"><div class="icon">💜</div><b>Equilíbrio</b></div></div></div><div class="card" style="margin-top:13px"><div class="setting"><span>🔔 Lembretes</span><button class="btn dark" onclick="toast('Lembretes ativados 🔔')">Ativar</button></div><div class="setting"><span>🌙 Modo Sono</span><button class="btn dark" onclick="go('sleep'); setTimeout(showSleepWelcome, 80)">Abrir</button></div><div class="setting"><span>⚙️ Privacidade</span><button class="btn dark" onclick="toast('Seus dados ficam neste protótipo 💜')">Ver</button></div><div class="setting"><span>🚪 Sair</span><button class="btn dark" onclick="logout()">Sair</button></div></div></section>
 
-<section id="sleep" class="screen"><div class="card sleep"><div><div class="moon">🌙</div><h2>Modo Sono</h2><p>Desconecte-se para recarregar suas energias. Deixe as notificações de lado e prepare-se para descansar.</p><button class="btn primary" onclick="sleepMode(this)">Ativar modo sono</button></div></div></section>
+<section id="sleep" class="screen"><div class="card sleep"><div><div class="moon">🌙</div><h2>Modo Sono</h2><p>Desconecte-se para recarregar suas energias. Deixe as notificações de lado e prepare-se para descansar.</p><div class="sleep-status" id="sleepStatus">🌙 O Modo Sono está desativado.</div><button id="sleepToggle" class="btn primary" onclick="toggleSleepMode(this)">Ativar modo sono</button></div></div></section>
 </div>
 
+<div id="sleepWelcome" class="sleep-modal" aria-hidden="true">
+  <div class="sleep-modal-card" role="dialog" aria-modal="true" aria-labelledby="sleepWelcomeTitle">
+    <div class="sleep-modal-icon">🌙</div>
+    <div class="eyebrow">MODO SONO</div>
+    <h2 id="sleepWelcomeTitle">Boa noite! 💜</h2>
+    <p>Hora de desacelerar e preparar seu corpo para descansar.</p>
+    <div class="sleep-tip"><b>💡 Dica para dormir melhor</b><span>Evite telas e redes sociais antes de dormir. Diminua a iluminação e tente manter um horário regular para descansar.</span></div>
+    <button class="btn primary full" onclick="closeSleepWelcome()">Entendi</button>
+  </div>
+</div>
 <div id="toast" class="toast"></div>
 <nav class="nav"><div class="navin"><button class="active" data-id="home" onclick="go('home')"><span>🏠</span>Início</button><button data-id="balance" onclick="go('balance')"><span>🧭</span>Equilíbrio</button><button data-id="challenges" onclick="go('challenges')"><span>🎯</span>Desafios</button><button data-id="checkin" onclick="go('checkin')"><span>🧠</span>Check-in</button><button data-id="reports" onclick="go('reports')"><span>📊</span>Relatórios</button><button data-id="stories" onclick="go('stories')"><span>💬</span>Histórias</button><button data-id="achievements" onclick="go('achievements')"><span>🏆</span>Conquistas</button></div></nav>
 
 <script>
+// Perfis separados por usuário: cada usuário possui seus próprios dados no navegador.
+const __baseStorage = window.localStorage;
+const __PROFILE_KEYS = ['off_points','off_challenges','off_checkins','off_daily_goal','off_day_logs','off_moods','off_sleep_mode','off_stories'];
+function __userKey(key){
+  const user=(__baseStorage.getItem('off_user')||'').trim().toLowerCase();
+  if(!user) return key;
+  const safe=btoa(unescape(encodeURIComponent(user))).replace(/[^a-zA-Z0-9_-]/g,'');
+  return 'off_profile__'+safe+'__'+key;
+}
+function __migrateLegacyProfile(){
+  if(__baseStorage.getItem('off_profile_initialized')==='1') return;
+  const user=(__baseStorage.getItem('off_user')||'').trim();
+  if(!user) return;
+  // A primeira conta assume os dados antigos do protótipo, evitando perder o progresso atual.
+  for(const key of __PROFILE_KEYS){
+    const old=__baseStorage.getItem(key);
+    if(old!==null) __baseStorage.setItem(__userKey(key),old);
+  }
+  __baseStorage.setItem('off_profile_initialized','1');
+}
+const localStorage={
+  getItem(key){
+    if(key==='off_logged'||key==='off_user'||key==='off_profile_initialized') return __baseStorage.getItem(key);
+    return __baseStorage.getItem(__userKey(key));
+  },
+  setItem(key,value){
+    if(key==='off_logged'||key==='off_user'||key==='off_profile_initialized') __baseStorage.setItem(key,String(value));
+    else __baseStorage.setItem(__userKey(key),String(value));
+  },
+  removeItem(key){
+    if(key==='off_logged'||key==='off_user'||key==='off_profile_initialized') __baseStorage.removeItem(key);
+    else __baseStorage.removeItem(__userKey(key));
+  }
+};
+
 let points=Number(localStorage.getItem('off_points')||0),challenges=Number(localStorage.getItem('off_challenges')||0),checkins=Number(localStorage.getItem('off_checkins')||0);
 function save(){localStorage.setItem('off_points',points);localStorage.setItem('off_challenges',challenges);localStorage.setItem('off_checkins',checkins);update();updateAchievements()}
 function update(){document.getElementById('points').textContent=points;document.getElementById('profilePoints').textContent=points;let level=Math.floor(points/100)+1;document.getElementById('level').textContent=level;document.getElementById('levelbar').style.width=(points%100)+'%';document.getElementById('next').textContent=((level)*100);if(challenges)document.getElementById('b1').classList.remove('locked');if(points>=50)document.getElementById('b2').classList.remove('locked');if(checkins)document.getElementById('b3').classList.remove('locked');if(points>=100)document.getElementById('b4').classList.remove('locked');}
+function parseMinutes(value){
+ value=(value||'').toLowerCase().trim(); if(!value)return 0;
+ let h=0,m=0; const hm=value.match(/(\d+)\s*h/); const mm=value.match(/(\d+)\s*m/);
+ if(hm)h=Number(hm[1]); if(mm)m=Number(mm[1]);
+ if(!hm&&!mm){ const n=parseInt(value.replace(/[^0-9]/g,''),10); return Number.isFinite(n)?n:0; }
+ return h*60+m;
+}
+function formatMinutes(n){n=Math.max(0,Math.round(n||0)); const h=Math.floor(n/60),m=n%60; return h?`${h}h${m?String(m).padStart(2,'0'):''}`:`${m} min`}
+function dayLogs(){return JSON.parse(localStorage.getItem('off_day_logs')||'{}')}
+function dailyGoal(){return Number(localStorage.getItem('off_daily_goal')||210)}
+function saveDailyGoal(){
+ const value=parseMinutes(document.getElementById('dailyGoal').value);
+ if(!value){toast('Digite uma meta válida, como 3h30');return;}
+ localStorage.setItem('off_daily_goal',String(value));
+ renderDayLogs();
+ updateBalance();
+ document.getElementById('goalStatus').textContent='✓ Meta diária salva.';
+ toast('🎯 Sua meta diária foi atualizada!');
+}
+function editDailyGoal(){
+ const current=formatMinutes(dailyGoal()).replace(' min','m');
+ const input=prompt('🎯 Qual é a sua meta diária de tempo de tela?\nExemplo: 3h30, 4h ou 180min',current);
+ if(input===null)return;
+ const value=parseMinutes(input.trim());
+ if(!value){toast('Digite uma meta válida, como 3h30');return;}
+ localStorage.setItem('off_daily_goal',String(value));
+ renderHome();
+ const goalInput=document.getElementById('dailyGoal');
+ if(goalInput)goalInput.value=formatMinutes(value).replace(' min','m');
+ const status=document.getElementById('goalStatus');
+ if(status)status.textContent='✓ Meta diária salva.';
+ toast('🎯 Sua meta diária foi atualizada!');
+}
+function renderHome(current){
+ current=current||dayLogs()[dateKey(new Date())]||{};
+ const screen=Number(current.social||0), sleep=Number(current.sleep||0), exercise=Number(current.exercise||0), study=Number(current.study||0), real=Number(current.socialize||0), goal=dailyGoal();
+ const pct=goal?Math.min(100,Math.round(screen/goal*100)):0;
+ document.getElementById('homeScreenTime').textContent=formatMinutes(screen);
+ document.getElementById('homeGoal').textContent=formatMinutes(goal);
+ document.getElementById('homeProgress').style.width=pct+'%';
+ document.getElementById('homePercent').textContent=pct+'%';
+ document.querySelector('.ring').style.background=`conic-gradient(var(--purple2) 0 ${pct}%,#352547 ${pct}% 100%)`;
+ document.getElementById('homeSleep').textContent=formatMinutes(sleep);
+ document.getElementById('homeExercise').textContent=formatMinutes(exercise);
+ document.getElementById('homeStudy').textContent=formatMinutes(study);
+ document.getElementById('homeRealLife').textContent=formatMinutes(real);
+}
+function saveDayLog(){
+ const d=dateKey(new Date()); const logs=dayLogs();
+ logs[d]={social:parseMinutes(document.getElementById('socialTime').value),sleep:parseMinutes(document.getElementById('sleepTime').value),exercise:parseMinutes(document.getElementById('exerciseTime').value),study:parseMinutes(document.getElementById('studyTime').value),socialize:parseMinutes(document.getElementById('socializeTime').value),offline:parseMinutes(document.getElementById('offlineTime').value)};
+ localStorage.setItem('off_day_logs',JSON.stringify(logs)); renderDayLogs(); updateBalance(); document.getElementById('logStatus').textContent='✓ Registro de hoje salvo. A tela inicial foi atualizada.'; toast('📊 Seu dia foi salvo e a tela inicial atualizada!');
+}
+function renderDayLogs(){
+ const logs=dayLogs(), dates=[]; for(let i=6;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);dates.push(dateKey(d));}
+ const vals=dates.map(d=>logs[d]?.social||0), max=Math.max(60,...vals); const chart=document.getElementById('screenChart'), days=document.getElementById('screenDays');
+ chart.innerHTML=''; days.innerHTML=''; dates.forEach((d,i)=>{const bar=document.createElement('i');bar.className='bar';bar.style.height=Math.max(10,(vals[i]/max)*100)+'%';bar.title=vals[i]?formatMinutes(vals[i]):'Sem registro';chart.appendChild(bar);const sp=document.createElement('span');sp.textContent=new Date(d+'T12:00:00').toLocaleDateString('pt-BR',{weekday:'short'}).replace('.','').toUpperCase();days.appendChild(sp)});
+ const current=logs[dateKey(new Date())]; if(current){[['social','socialTime'],['sleep','sleepTime'],['exercise','exerciseTime'],['study','studyTime'],['socialize','socializeTime'],['offline','offlineTime']].forEach(([k,id])=>{const el=document.getElementById(id);if(el)el.value=current[k]?formatMinutes(current[k]).replace(' min','m'):''});document.getElementById('logStatus').textContent='✓ Registro de hoje carregado.';}
+ const goalInput=document.getElementById('dailyGoal'); if(goalInput)goalInput.value=formatMinutes(dailyGoal()).replace(' min','m');
+ const avg=vals.filter(Boolean); const average=avg.length?Math.round(avg.reduce((a,b)=>a+b,0)/avg.length):0; document.getElementById('screenAvg').textContent=formatMinutes(average)+'/dia';
+ const totals={social:0,offline:0,exercise:0,socialize:0}; Object.values(logs).forEach(x=>Object.keys(totals).forEach(k=>totals[k]+=Number(x[k]||0)));
+ const pairs=[['social','socialTotal','socialBar'],['offline','offlineTotal','offlineBar'],['exercise','exerciseTotal','exerciseBar'],['socialize','socializeTotal','socializeBar']]; pairs.forEach(([k,t,b])=>{document.getElementById(t).textContent=formatMinutes(totals[k]);document.getElementById(b).style.width=Math.min(100,totals[k]/600*100)+'%'});
+ const msg=document.getElementById('balanceMessage'); if(!Object.keys(logs).length)msg.textContent='Registre seu dia para começar a acompanhar seu progresso.'; else if(current?.social && current.social<=120)msg.textContent='👏 Ótimo! Seu tempo nas redes está em uma faixa mais controlada hoje. Continue investindo em atividade e vida real.'; else if(current?.social)msg.textContent='💡 Que tal experimentar uma pequena redução amanhã e usar esse tempo para atividade física ou socialização?'; else msg.textContent='💜 Seus registros ajudam o OFF+ a mostrar onde seu tempo está indo.';
+ renderHome(current);
+}
+function updateBalance(){
+ const logs=dayLogs();
+ const today=logs[dateKey(new Date())]||{};
+ const social=Number(today.social||0), sleep=Number(today.sleep||0), exercise=Number(today.exercise||0);
+ const goal=dailyGoal();
+ const screenScore=social?Math.max(0,Math.min(100,Math.round((1-Math.max(0,social-goal)/Math.max(goal,1))*100))):0;
+ const sleepScore=sleep?Math.max(0,Math.min(100,Math.round((1-Math.abs(sleep-480)/480)*100))):0;
+ const exerciseScore=exercise?Math.max(0,Math.min(100,Math.round(exercise/30*100))):0;
+ const moods=JSON.parse(localStorage.getItem('off_moods')||'{}');
+ const moodKey=moods[dateKey(new Date())]; const mood=moodKey&&moodInfo[moodKey];
+ const moodScore=mood?mood.score*20:0;
+ const scores=[screenScore,sleepScore,exerciseScore,moodScore].filter(v=>v>0);
+ const overall=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):0;
+ const score=document.getElementById('balanceScore'), pct=document.getElementById('scorePercent');
+ if(score)score.textContent=overall; if(pct)pct.textContent=overall+'%';
+ const msg=document.getElementById('balanceMessage');
+ if(msg){if(!Object.keys(today).length&&!mood)msg.textContent='Registre seu dia no Relatório e faça seu check-in para acompanhar seu equilíbrio.';else if(overall>=80)msg.textContent='👏 Ótimo! Seus registros mostram um bom equilíbrio hoje. Continue investindo em atividade, descanso e vida real.';else if(overall>=60)msg.textContent='💡 Você está no caminho. Veja qual hábito pode receber um pouco mais de atenção hoje.';else msg.textContent='💜 Pequenas mudanças já contam. Use seus registros para escolher um próximo passo possível.';}
+ const set=(id,text)=>{const e=document.getElementById(id);if(e)e.textContent=text};
+ const quality=(score)=>score>=80?'🟢 Bom':score>=60?'🟡 Pode melhorar':score>0?'🔴 Precisa de atenção':'⚪ Sem registro';
+ set('balanceScreenDetail',formatMinutes(social)+' — '+quality(screenScore)); set('balanceScreenScore',screenScore+'%');
+ set('balanceSleepDetail',formatMinutes(sleep)+' — '+quality(sleepScore)); set('balanceSleepScore',sleepScore+'%');
+ set('balanceExerciseDetail',formatMinutes(exercise)+' — '+quality(exerciseScore)); set('balanceExerciseScore',exerciseScore+'%');
+ set('balanceMood',mood?(mood.face+' '+mood.label):'⚪ Sem check-in hoje'); set('moodScore',moodScore+'%');
+}
+
 function go(id){document.querySelectorAll('.screen').forEach(s=>s.classList.remove('active'));document.getElementById(id).classList.add('active');document.querySelectorAll('.nav button').forEach(b=>b.classList.toggle('active',b.dataset.id===id));scrollTo({top:0,behavior:'smooth'})}
 function toast(t){let x=document.getElementById('toast');x.textContent=t;x.classList.add('show');setTimeout(()=>x.classList.remove('show'),2300)}
-function challenge(btn){let c=btn.closest('.challenge');if(c.classList.contains('done'))return;if(btn.dataset.started!=='1'){btn.dataset.started='1';btn.textContent='Finalizar desafio';btn.classList.remove('primary');btn.classList.add('green');toast('Desafio iniciado! 💪');return}let p=Number(c.dataset.p);points+=p;challenges++;c.classList.add('done');btn.textContent='Concluído ✓';btn.disabled=true;save();updateAchievements();toast('🎉 Desafio concluído! +'+p+' pontos');}
+const challengeTimers=new WeakMap();
+function challengeFormat(sec){
+ sec=Math.max(0,sec);
+ const hundred=Math.floor((sec%1)*100);
+ const total=Math.floor(sec);
+ const h=Math.floor(total/3600),m=Math.floor((total%3600)/60),s=total%60;
+ const cc=String(hundred).padStart(2,'0');
+ if(h>0)return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')+'.'+cc;
+ return String(m).padStart(2,'0')+':'+String(s).padStart(2,'0')+'.'+cc;
+}
+function ensurePauseButton(c){
+ const controls=c.querySelector('.challenge-controls');
+ if(controls)return controls;
+ const main=c.querySelector('button[onclick^="challenge("]');
+ if(!main)return null;
+ const wrap=document.createElement('div');wrap.className='challenge-controls';
+ main.parentNode.insertBefore(wrap,main);wrap.appendChild(main);
+ const pause=document.createElement('button');pause.type='button';pause.className='btn pause-btn';pause.textContent='⏸️ Pausar';pause.onclick=function(){pauseChallenge(this)};wrap.appendChild(pause);
+ return wrap;
+}
+function challengeDraw(c){
+ const st=challengeTimers.get(c);if(!st)return;
+ const box=c.querySelector('.challenge-timer'),clock=c.querySelector('.challenge-clock'),bar=c.querySelector('.challenge-track i'),btn=c.querySelector('button[onclick^="challenge("]');
+ if(!box||!clock||!bar||!btn)return;
+ ensurePauseButton(c);
+ const pause=c.querySelector('.pause-btn');
+ box.classList.add('active');
+ const left=st.done?0:Math.max(0,(st.end-Date.now())/1000);
+ clock.textContent=challengeFormat(left);
+ bar.style.width=Math.min(100,Math.max(0,(1-left/st.duration)*100))+'%';
+ if(st.done){
+   btn.disabled=false;btn.textContent='Finalizar desafio';btn.classList.remove('primary');btn.classList.add('green');
+   if(pause)pause.style.display='none';
+   box.querySelector('small').textContent='🏆 Tempo cumprido! Toque em Finalizar desafio para receber os pontos.';
+ }else if(st.invalid){
+   btn.disabled=false;btn.textContent='🔄 Recomeçar desafio';btn.classList.remove('green');btn.classList.add('primary');
+   if(pause)pause.style.display='none';
+   box.querySelector('small').textContent='⏸️ Desafio pausado. Esta tentativa não vale pontos. Recomece para tentar novamente.';
+ }else{
+   btn.disabled=true;btn.textContent='⏳ Em andamento...';
+   if(pause)pause.style.display='block';
+   box.querySelector('small').textContent='O botão de conclusão será liberado quando chegar a 00:00. Pausar invalida esta tentativa.';
+ }
+}
+function challengeTick(c){
+ const st=challengeTimers.get(c);if(!st||st.invalid)return;
+ const left=(st.end-Date.now())/1000;
+ if(left<=0){st.done=true;clearInterval(st.interval);st.interval=null;challengeDraw(c);toast('🏆 Tempo cumprido! Agora finalize o desafio.');}
+ else challengeDraw(c);
+}
+function pauseChallenge(btn){
+ const c=btn.closest('.challenge');if(!c||c.classList.contains('done'))return;
+ const st=challengeTimers.get(c);if(!st||st.done||st.invalid)return;
+ clearInterval(st.interval);st.interval=null;st.invalid=true;challengeDraw(c);toast('⏸️ Desafio pausado. Esta tentativa não dará pontos.');
+}
+function challenge(btn){
+ const c=btn.closest('.challenge');if(!c||c.classList.contains('done'))return;
+ let st=challengeTimers.get(c);
+ if(st&&st.done){
+   const p=Number(c.dataset.p);points+=p;challenges++;c.classList.add('done');btn.textContent='Concluído ✓';btn.disabled=true;const pause=c.querySelector('.pause-btn');if(pause)pause.style.display='none';save();updateAchievements();toast('🎉 Desafio concluído! +'+p+' pontos');return;
+ }
+ if(st&&st.invalid){challengeTimers.delete(c);st=null;const box=c.querySelector('.challenge-timer');if(box){box.classList.remove('active');const clock=box.querySelector('.challenge-clock');const bar=box.querySelector('.challenge-track i');if(clock)clock.textContent='00:00.00';if(bar)bar.style.width='0%';}btn.textContent='Começar';btn.disabled=false;btn.classList.remove('green');btn.classList.add('primary');return challenge(btn);}
+ if(st){toast('⏳ O cronômetro ainda não chegou a zero.');return}
+ const box=c.querySelector('.challenge-timer'),duration=Number(box&&box.dataset.duration||0);if(!duration)return;
+ const now=Date.now();st={duration,end:now+duration*1000,done:false,invalid:false,interval:null};
+ challengeTimers.set(c,st);challengeDraw(c);st.interval=setInterval(()=>challengeTick(c),50);toast('▶️ Cronômetro iniciado!');
+}
 function mood(btn,title,text,tip,key){
  document.querySelectorAll('.mood').forEach(x=>x.classList.remove('selected'));
  btn.classList.add('selected');
@@ -246,7 +546,12 @@ function mood(btn,title,text,tip,key){
  document.getElementById('advice').scrollIntoView({behavior:'smooth',block:'center'});
  toast('Check-in de hoje salvo 💜');
 }
-function sleepMode(btn){btn.textContent='Modo Sono ativado ✓';btn.classList.remove('primary');btn.classList.add('green');toast('🌙 Hora de desacelerar.')}
+function showSleepWelcome(){const m=document.getElementById('sleepWelcome');if(m){m.classList.add('show');m.setAttribute('aria-hidden','false')}}
+function closeSleepWelcome(){const m=document.getElementById('sleepWelcome');if(m){m.classList.remove('show');m.setAttribute('aria-hidden','true')}}
+function sleepMode(btn){localStorage.setItem('off_sleep_mode','1');btn.textContent='🌙 Modo Sono ativado ✓';btn.classList.remove('primary');btn.classList.add('green');const st=document.getElementById('sleepStatus');if(st)st.textContent='🌙 O Modo Sono está ativado. As notificações ficam de lado enquanto você desacelera.';showSleepWelcome();toast('🌙 Hora de desacelerar.')}
+function disableSleepMode(btn){localStorage.removeItem('off_sleep_mode');btn.textContent='Ativar modo sono';btn.classList.remove('green');btn.classList.add('primary');const st=document.getElementById('sleepStatus');if(st)st.textContent='🌙 O Modo Sono está desativado.';toast('☀️ Modo Sono desativado.')}
+function toggleSleepMode(btn){if(localStorage.getItem('off_sleep_mode')==='1')disableSleepMode(btn);else sleepMode(btn)}
+function restoreSleepMode(){const btn=document.getElementById('sleepToggle');const st=document.getElementById('sleepStatus');if(!btn)return;if(localStorage.getItem('off_sleep_mode')==='1'){btn.textContent='☀️ Desativar modo sono';btn.classList.remove('primary');btn.classList.add('green');if(st)st.textContent='🌙 O Modo Sono está ativado. As notificações ficam de lado enquanto você desacelera.';}else{btn.textContent='Ativar modo sono';btn.classList.remove('green');btn.classList.add('primary');if(st)st.textContent='🌙 O Modo Sono está desativado.';}}
 
 function dateKey(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')}
 const moodInfo={
@@ -265,9 +570,11 @@ function doLogin(){
  const ok=/^(?=\d{4}[A-Za-z]{2}$)[0-9]{4}[A-Za-z]{2}$/.test(pass);
  if(!name){document.getElementById('loginError').textContent='Digite seu nome ou usuário.';return}
  if(!ok){document.getElementById('loginError').textContent='A senha precisa ter 4 números e 2 letras. Ex.: 1234AB';return}
- localStorage.setItem('off_logged','1');localStorage.setItem('off_user',name);
- document.getElementById('loginScreen').classList.add('hidden');document.getElementById('appShell').classList.remove('hidden');
- toast('Bem-vindo ao OFF+, '+name+'! 💜');
+ localStorage.setItem('off_user',name);
+ __migrateLegacyProfile();
+ localStorage.setItem('off_logged','1');
+ // Recarrega para que todos os dados da aplicação sejam inicializados no perfil escolhido.
+ location.reload();
 }
 function selectCalendarMood(key,btn){
  selectedCalendarMood=key;
@@ -375,11 +682,14 @@ function renderMoodHistory(){
  document.getElementById('evolution').innerHTML='<div class="evolution-box"><div class="'+cls+'">'+headline+'</div><div class="evolution-small">'+detail+'</div><div class="evolution-small"><b>'+recent.length+'</b> check-ins registrados nos últimos 7 registros.</div></div>';
 }
 
+document.querySelectorAll('.challenge').forEach(ensurePauseButton);
 renderMoodHistory();
+renderDayLogs();
 updateBalance();
 update();
 updateAchievements();
 renderStories();
+restoreSleepMode();
 
 const tips=[
 ['Pequenas pausas fazem diferença.','Que tal ficar 30 minutos longe das redes sociais hoje?'],
